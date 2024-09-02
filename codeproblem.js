@@ -215,9 +215,87 @@ array has some duplicate elements
 // console.log(Math.round(2.56));
 // console.log(Math.floor(2.96));
 // console.log(Math.ceil(2.001));
-console.log(Math.random());
-console.log(Math.random()*10);
-const rend = Math.round(Math.random()*10)
-console.log(rend);
+// console.log(Math.random());
+// console.log(Math.random()*10);
+// const rend = Math.round(Math.random()*10)
+// console.log(rend);
 
+// 7
+// const today = new Date();
+// const date = new Date ('2062-10-19');
+// console.log(date.getMonth());
+// console.log(date.getDay());
+// const specificDate = new Date(2090, 0, 26);
+// console.log(specificDate);
+// specificDate.setMonth(10);
+// console.log(specificDate.toLocaleString('en-GB'));
+
+// unix epoc 
+
+//8
+// let a = 5;
+// let b = 7;
+// console.log(a, b);
+// // a = b;
+// // b = a;
+
+// const temp = a;
+// a = b;
+// b = temp;
+// console.log(a, b);
+
+// ------------------
+// let x = 5;
+// let y = 7;
+
+// console.log(x, y);
+// [x, y] = [y, x];
+// console.log(x, y);
+
+// part 2.1
+
+// const disha = 56;
+// const salman = 95;
+
+// if(disha > salman){
+//     console.log('Disha will get the strawberry');
+// }
+// else{
+//     console.log('Salman will get the strawberry');
+// }
+
+// // inside a function
+// function getMax(num1, num2){
+//     if(num1 > num2){
+//         return num1;
+//     }
+//     else{
+//         return num2;
+//     }
+// }
+// const max1 = getMax(96, 79);
+// const max2 = getMax(56, 98);
+// const ultimatemax = getMax(max1, max2);
+// console.log('max of two is: ', ultimatemax);
+
+// const jim = 56;
+// const tim = 89;
+// const kim = 68;
+
+// if(jim > tim && jim > kim){
+//     console.log('jim is the ultimate boss');
+// }
+// else if(tim > jim && tim > kim){
+//     console.log('tim is the ultimate boss');
+// }
+// else{
+//     console.log('Kim is the kardashians boss');
+// }
+
+// function maxOfThree (num1, num2, num3){
+//     // do it yourself
+// }
+
+// const max = Math.max(12, 1, 56, 55, 72, 59);
+// console.log('max using Math.max',max);
 
