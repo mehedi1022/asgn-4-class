@@ -131,7 +131,7 @@ array has some duplicate elements
 //       //   console.log(number);
 //       odds.push(number)
 //       }
-    
+
 //   }
 //   // odds is the array that contain only array number
 //   // console.log(odds);
@@ -143,7 +143,7 @@ array has some duplicate elements
 //   console.log(sum, count);
 //   const avg = sum / count;
 //   return avg;
-  
+
 // }
 
 // const numbers = [42, 13, 58, 65, 81];
@@ -298,4 +298,26 @@ array has some duplicate elements
 
 // const max = Math.max(12, 1, 56, 55, 72, 59);
 // console.log('max using Math.max',max);
+
+// part 2.2
+
+const heights = [65, 66, 68, 72, 78, 60]
+
+function getMax(numbers) {
+    let max = numbers[0];
+    // console.log(numbers);
+    for (const num of numbers) {
+        // console.log(num);
+        if (num > max) {
+            max = num;
+        }
+    }
+    return max;
+}
+const max = getMax(heights);
+console.log('max value is', max);
+
+//homework: min number
+
+// part 2.3
 
