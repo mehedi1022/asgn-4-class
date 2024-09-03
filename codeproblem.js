@@ -301,23 +301,50 @@ array has some duplicate elements
 
 // part 2.2
 
-const heights = [65, 66, 68, 72, 78, 60]
+// const heights = [65, 66, 68, 72, 78, 60]
 
-function getMax(numbers) {
-    let max = numbers[0];
-    // console.log(numbers);
-    for (const num of numbers) {
-        // console.log(num);
-        if (num > max) {
-            max = num;
-        }
-    }
-    return max;
-}
-const max = getMax(heights);
-console.log('max value is', max);
+// function getMax(numbers) {
+//     let max = numbers[0];
+//     // console.log(numbers);
+//     for (const num of numbers) {
+//         // console.log(num);
+//         if (num > max) {
+//             max = num;
+//         }
+//     }
+//     return max;
+// }
+// const max = getMax(heights);
+// console.log('max value is', max);
 
 //homework: min number
 
 // part 2.3
 
+/*
+chair --> 3 cft
+table --> 10 cft
+bed --> 50 ctf
+*/
+
+function woodQuantity(chairQuantity, tableQuantity, bedQuantity) {
+    const perChairWood = 3;
+    const perTableWood = 10;
+    const perBedWood = 50;
+
+    const chairTotalWood = chairQuantity * perChairWood;
+    const tableTotalWood = tableQuantity * perTableWood;
+    const bedTotalWood = bedQuantity * perBedWood;
+
+    const totalWood = chairTotalWood + bedTotalWood + bedTotalWood;
+    return totalWood;
+}
+
+const wood = woodQuantity(0, 0, 1)
+console.log('wood needed', wood);
+
+/*
+Shirt Price --> 500
+Pant Price --> 300
+Shoe Price --> 900
+*/
